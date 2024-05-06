@@ -1,0 +1,39 @@
+.hidden {
+  display: none;
+}
+
+.screen {
+  video {
+    width: 100%;
+  }
+  @media (min-width: 768px) {
+    video {
+      width: 50%;
+    }
+  }
+}
+
+li.viewed {
+  color: green;
+}
+
+.video-container {
+  &.show-overlay {
+    position: relative;
+    .overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      opacity: 0.2;
+      &.bad {
+        background-color: red;
+      }
+      &.good {
+        background-color: green;
+        opacity: 0.3;
+      }
+    }
+  }
+}

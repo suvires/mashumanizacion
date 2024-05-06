@@ -1,0 +1,9 @@
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  .pagination {
+    font-size: 0.9rem;
+  }
+}

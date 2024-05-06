@@ -1,0 +1,48 @@
+[
+  {
+    "title": "Pantalla 1",
+    "type": "good",
+    "content": "El siguiente vídeo representa algunas situaciones cotianas en el cuidado de personas.",
+    "video": "video1.mp4",
+    "segments": [
+      {
+        "title": "Hablar directamente a la persona.",
+        "start": 4.0,
+        "end": 8.59
+      },
+      {
+        "title": "Llamar antes de entrar.",
+        "start": 20.0,
+        "end": 22.59
+      },
+      {
+        "title": "No tocar las cosas personales sin persmiso.",
+        "start": 26,
+        "end": 27.59
+      }
+    ]
+  },
+  {
+    "title": "Pantalla 2",
+    "type": "bad",
+    "content": "El siguiente vídeo representa algunas situaciones cotianas en el cuidado de personas.",
+    "video": "video2.mp4",
+    "segments": [
+      {
+        "title": "No llamar a la puerta antes de entrar.",
+        "start": 0.0,
+        "end": 3.0
+      },
+      {
+        "title": "Tocar las cosas personales sin permiso.",
+        "start": 11.0,
+        "end": 13.99
+      },
+      {
+        "title": "No hablar directamente a la persona.",
+        "start": 15.0,
+        "end": 17.99
+      }
+    ]
+  }
+]

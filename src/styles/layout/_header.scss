@@ -1,0 +1,19 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the header of the site/application.
+// -----------------------------------------------------------------------------
+.page-header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: $white;
+  display: flex;
+  align-items: center;
+  height: 50px;
+  padding: 0 1rem;
+
+  .logo {
+    height: 100%;
+    width: auto;
+    margin-right: 1rem;
+  }
+}
